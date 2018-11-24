@@ -1,0 +1,3 @@
+vmhostlist:
+  - {hostname: test1, ipaddr: 1.1.1.1 }
+  - {hostname: test2, ipaddr: 2.2.2.2 }

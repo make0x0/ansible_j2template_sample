@@ -1,0 +1,6 @@
+---
+- hosts: target
+  vars_files:
+  - vars/vars.yml
+  roles:
+    - iptables
