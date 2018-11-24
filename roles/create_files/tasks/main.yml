@@ -1,0 +1,6 @@
+- name: "create file ifcfg from template"
+  template:
+    dest: /tmp/{{ item.hostname }}.cfg
+    src: ifcfg.j2
+    mode: 755
+  loop: "{{ vmhostlist }}"

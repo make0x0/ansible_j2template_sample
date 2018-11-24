@@ -1,9 +1,17 @@
 #!/bin/sh
 
+## Basesettings
+# hogehoge
+
+
+## Repeat Settings
+
 {% for x in vmhostlist %}
-
 ###### {{ x.hostname }} ######
-
-
+${iptables}  {{x.ipaddr}}
 
 {% endfor %}
+
+
+
+# Settings 2

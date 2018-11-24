@@ -1,5 +1,5 @@
 - name: create file from template
   template:
-  dest: /tmp/test.txt
-  src: iptables.sh.j2
-  mode: 755
+    dest: /tmp/test.txt
+    src: iptables.sh.j2
+    mode: 755
